@@ -1,11 +1,10 @@
 {
   "globals": {
     "define"      : true,
-    "require"     : true,
-    "module"      : true,
-    "exports"     : true,
     "_"           : true,
     "Backbone"    : true,
+
+    "Behavior"    : true,
 
     "describe"    : true,
     "it"          : true,
@@ -18,7 +17,7 @@
   },
 
   "bitwise"       : true,
-  "camelcase"     : true,
+  "camelcase"     : false,
   "curly"         : true,
   "eqeqeq"        : true,
   "forin"         : true,
@@ -69,7 +68,7 @@
   "dojo"          : false,
   "jquery"        : false,
   "mootools"      : false,
-  "node"          : false,
+  "node"          : true,
   "nonstandard"   : false,
   "prototypejs"   : false,
   "rhino"         : false,

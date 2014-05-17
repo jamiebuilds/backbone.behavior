@@ -92,6 +92,14 @@ module.exports = function (grunt) {
     }
   });
 
+  var defaultTestsSrc = grunt.config('mochaTest.tests.src');
+  grunt.event.on('watch', function(action, filepath) {
+    grunt.config('mochaTest.tests.src', defaultTestsSrc);
+    if (filepath.match('tests/unit/specs')) {
+      grunt.config('mochaTest.tests.src', filepath);
+    }
+  });
+
   grunt.registerTask('test', [
     'preprocess:tests',
     'jshint',
