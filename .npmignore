@@ -3,3 +3,4 @@
 .gitignore
 .jshintrc
 tests
+.tmp
