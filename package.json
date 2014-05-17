@@ -1,0 +1,35 @@
+{
+  "name": "backbone.behavior",
+  "description": "Decorate your Backbone Classes.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/thejameskyle/backbone.behavior",
+  "main": "dist/backbone.behavior.js",
+  "keywords": [
+    "backbone"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url":"https://github.com/thejameskyle/backbone.behavior/blob/master/LICENSE.md"
+    }
+  ],
+  "directories": {
+    "test": "tests",
+    "lib": "dist"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "author": {
+    "name": "James Kyle",
+    "email": "me@thejameskyle.com",
+    "url": "https://github.com/thejameskyle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thejameskyle/backbone.behavior.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thejameskyle/backbone.behavior/issues"
+  }
+}

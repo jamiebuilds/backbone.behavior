@@ -1,4 +1,4 @@
-Backbone.Behaviors
-==================
+Backbone.Behavior
+=================
 
-Decorate your Backbone Classes
+Decorate your Backbone Classes.
